@@ -1,0 +1,40 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+}
+body {
+   font-weight: 300;
+   color: #444;
+   line-height: 1.9;
+   background-color: #f3f3f3;
+}
+html {
+   font-size: 62.5%;
+}
+
+a {
+   text-decoration: none;
+}
+
+img {
+   max-width: 100%;
+   display: block;
+   transition: filter 0.5s;
+}
+
+button {
+   border: none;
+}
+p {
+   color: #666;
+}
+
+ul li {
+   list-style-type: none;
+}
+
+.lazy-img {
+   filter: blur(20px);
+}
